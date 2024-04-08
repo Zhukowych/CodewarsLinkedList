@@ -1,8 +1,3 @@
-class Node(object):
-    def __init__(self, data, next=None):
-        self.data = data
-        self.next = next
-
 def remove_duplicates(head):
     
     if not head:
@@ -27,9 +22,3 @@ def remove_duplicates(head):
     return head
 
 
-head = Node(1, Node(1, Node(1, Node(1))))
-
-remove_duplicates(head)
-
-print(head.data)
-print(head.next)
