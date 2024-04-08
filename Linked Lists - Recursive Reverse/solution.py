@@ -1,9 +1,4 @@
-class Node(object):
-    def __init__(self, data=None):
-        self.data = data
-        self.next = None
 
-        
 def reverse(head):
 
     def recursive(current, next):
